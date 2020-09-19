@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #24292e;
+    color: white;
+    font-size: 16px;
+    font-family: 'Varela', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Navigation */
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-name {
+    font-size: 15px;
+}
+
+/* List Navigation */
+
+.nav-menu{
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav-menu li {
+    padding: 10px;
+    
+}
+
+.nav-menu a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Firstshow */
+.firstshow {
+    width: 100%;
+    height: 550px;
+    background: url('./img/background_firstshow.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin: 10px 0px;
+}
+
+/*Secciones*/
+
+/* 1 */
+
+.top_section1 {
+    margin: 18px 0px;
+}
+
+.section_1 img {
+    width: 55%;
+    padding: 15px;
+}
+
+.section_1 {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text_section1 {
+    padding: 100px 30px 0px;
+}
+
+.text_section1 p {
+    margin-top: 20px;
+}
+
+/* 2 */
+
+.top_section2 {
+    margin: 18px 0px;
+}
+
+.section_2 {
+    height: 500px;
+    display: flex;
+}
+
+.text_section2 {
+    width: 70%;
+    padding: 100px 30px 0px;
+}
+
+.text_section2 img {
+    width: 55%;
+    padding: 15px;
+}
+
+.progress_section2 {
+    padding-top: 159px;
+}
+
+/* Footer */
+
+.top_section3 {
+    margin: 18px 0px;
+}
+
+footer {
+    background: #16191c;
+    height: 440px;
+    padding: 5% 15%;
+}
+
+.footer_listas {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_soporte {  
+    width: 30%;
+}
+
+.footer_soporte h1 {
+    margin-bottom: 20px;
+}
+
+.footer_redes_sociales {   
+    padding-left: 43%;
+}
+
+.footer_redes_sociales h1 {
+    padding-bottom: 20px;
+}
+
+.github {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
